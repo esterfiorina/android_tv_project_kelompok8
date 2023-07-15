@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FebActivity"
+    android:background="@drawable/bgdarkmenu">
+
+    <TextClock
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:text="Clock"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="@font/inter"
+        android:format12Hour="hh:mm"
+        android:textColor="#FFFAF9F9"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="350dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="bottom|center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="#E38D0D">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/logoupb"
+                    />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="8sp"
+                    android:text="FAKULTAS EKONOMI BISNIS \n UNIVERSITAS PELITA BANGSA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="FAKULTAS EKONOMI DAN BISNIS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginBottom="18dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:text="Universitas Pelita Bangsa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="bottom|center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/kotakvisi_fai">
+
+                <LinearLayout
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+                        android:text="Visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:text="”Becomes an international center for development and application of knowledge, technology and entrepreneurship in 2045”"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="6dp"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        android:textStyle="italic"
+                        android:text="Misi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:fontFamily="@font/abezee"
+                            android:textColor="#ffffff"
+                            android:text="1. "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:fontFamily="@font/abezee"
+                            android:textColor="#ffffff"
+                            android:text="Implementing the Educational Process to establish the mindset, attitude and professionalism and entrepreneurship to respond to the needs of users."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:fontFamily="@font/abezee"
+                            android:textColor="#ffffff"
+                            android:text="2. "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:fontFamily="@font/abezee"
+                            android:textColor="#ffffff"
+                            android:text="Implementing and developing the research of economics business science."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:fontFamily="@font/abezee"
+                            android:textColor="#ffffff"
+                            android:text="3. "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:fontFamily="@font/abezee"
+                            android:textColor="#ffffff"
+                            android:text="Implementing and developing the community services based on the search of economics and business science."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fotoupb"
+                android:layout_width="610dp"
+                android:layout_height="350dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="35dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:layout_width="325dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/kotakprodi_fai">
+
+                    <TextView
+                        android:layout_marginStart="16dp"
+                        android:textColor="#ffffff"
+                        android:textSize="19.5sp"
+                        android:textStyle="italic"
+                        android:text=" PROGRAM STUDI"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_marginStart="12dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_marginStart="6dp"
+                                android:layout_marginTop="6dp"
+                                android:textSize="10.5sp"
+                                android:textColor="#ffffff"
+                                android:textAllCaps="true"
+                                android:fontFamily="@font/inter"
+                                android:text=" s1 manajemen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="6dp"
+                                android:textSize="10.5sp"
+                                android:textColor="#ffffff"
+                                android:textAllCaps="true"
+                                android:fontFamily="@font/inter"
+                                android:text=" s1 kewirausahaan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_marginTop="3dp"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginStart="6dp"
+                                android:textSize="10.5sp"
+                                android:textColor="#ffffff"
+                                android:textAllCaps="true"
+                                android:fontFamily="@font/inter"
+                                android:text=" s1 bisnis digital"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginStart="46dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_marginStart="6dp"
+                                android:layout_marginTop="6dp"
+                                android:textSize="10.5sp"
+                                android:textColor="#ffffff"
+                                android:textAllCaps="true"
+                                android:fontFamily="@font/inter"
+                                android:text=" d3 akuntansi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_marginTop="3dp"
+                                android:layout_marginStart="6dp"
+                                android:textSize="10.5sp"
+                                android:textColor="#ffffff"
+                                android:textAllCaps="true"
+                                android:fontFamily="@font/inter"
+                                android:text=" s2 manajemen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="bottom|center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E38D0D">
+
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:gravity="end"
+                        android:layout_marginStart="6dp"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/intersemibold"
+                        android:text=" DEKAN FAKULTAS FEB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="end"
+                        android:layout_marginStart="6dp"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        android:fontFamily="@font/abezee"
+                        android:text="Preatmi Nurastuti, S.E., M.M."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
